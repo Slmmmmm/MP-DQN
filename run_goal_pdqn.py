@@ -14,7 +14,7 @@ from agents.pdqn import PDQNAgent
 from agents.pdqn_split import SplitPDQNAgent
 from agents.pdqn_multipass import MultiPassPDQNAgent
 
-
+import
 def pad_action(act, act_param):
     params = [np.zeros((2,)), np.zeros((1,)), np.zeros((1,))]
     params[act] = act_param
